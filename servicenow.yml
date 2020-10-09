@@ -1,5 +1,5 @@
 plugin: servicenow.servicenow.now
-table: cmdb_ci_linux_server
+table: cmdb_ci_aapl
 fields: [ip_address,fqdn,host_name,sys_class_name,name,os]
 keyed_groups:
   - key: sn_sys_class_name | lower
